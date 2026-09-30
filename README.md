@@ -142,15 +142,15 @@ Face-Anti-Spoofing/
 
 ├── DataSet/
 
-│   ├── All
+│   ├── All/
 
-│   ├── Data Collection
+│   ├── Data Collection/
 
-│   ├── Fake
+│   ├── Fake/
 
-│   ├── Real
+│   ├── Real/
 
-│   └── Split Data
+│   └── Split Data/
 
 ├── Testing Scripts/
 
