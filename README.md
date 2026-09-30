@@ -1,4 +1,4 @@
-\# Face Anti-Spoofing
+# Face Anti-Spoofing
 
 
 
@@ -6,7 +6,7 @@ A real-time face liveness detection system that uses computer vision and YOLO to
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,9 +14,9 @@ The project uses a webcam to detect faces and classify them as either:
 
 
 
-\- \*\*Real\*\*
+- **Real**
 
-\- \*\*Fake\*\*
+- **Fake**
 
 
 
@@ -24,11 +24,11 @@ The model is trained using labeled real and spoofed facial samples and then used
 
 
 
-\## Workflow
+## Workflow
 
 
 
-\### 1. Data Collection
+### 1. Data Collection
 
 
 
@@ -40,9 +40,9 @@ Each collected sample is assigned a class:
 
 
 
-\- `0` = Fake
+- `0` = Fake
 
-\- `1` = Real
+- `1` = Real
 
 
 
@@ -54,7 +54,7 @@ For better organization, real and fake samples are collected separately and then
 
 
 
-\### 2. Dataset Preparation
+### 2. Dataset Preparation
 
 
 
@@ -66,11 +66,11 @@ The default split is:
 
 
 
-\- 70% training
+- 70% training
 
-\- 20% validation
+- 20% validation
 
-\- 10% testing
+- 10% testing
 
 
 
@@ -78,7 +78,7 @@ The script also generates the YOLO dataset configuration file.
 
 
 
-\### 3. Model Training
+### 3. Model Training
 
 
 
@@ -90,7 +90,7 @@ After training, YOLO generates training results and model weights. The `best.pt`
 
 
 
-\### 4. Real-Time Detection
+### 4. Real-Time Detection
 
 
 
@@ -102,33 +102,33 @@ The system displays:
 
 
 
-\- Face bounding boxes
+- Face bounding boxes
 
-\- Real/Fake classification
+- Real/Fake classification
 
-\- Confidence score
+- Confidence score
 
-\- Real-time processing output
-
-
-
-\## Technologies Used
+- Real-time processing output
 
 
 
-\- Python
-
-\- OpenCV
-
-\- CVZone
-
-\- MediaPipe
-
-\- Ultralytics YOLO
+## Technologies Used
 
 
 
-\## Project Structure
+- Python
+
+- OpenCV
+
+- CVZone
+
+- MediaPipe
+
+- Ultralytics YOLO
+
+
+
+## Project Structure
 
 
 
