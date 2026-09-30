@@ -140,6 +140,18 @@ Face-Anti-Spoofing/
 
 │   └── version1\_3.pt
 
+├── DataSet/
+
+│   ├── All
+
+│   ├── Data Collection
+
+│   ├── Fake
+
+│   ├── Real
+
+│   ├── Split Data
+
 ├── Testing Scripts/
 
 │   ├── faceDetector.py
