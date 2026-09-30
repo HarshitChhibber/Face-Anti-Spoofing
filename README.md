@@ -150,7 +150,7 @@ Face-Anti-Spoofing/
 
 │   ├── Real
 
-│   ├── Split Data
+│   └── Split Data
 
 ├── Testing Scripts/
 
